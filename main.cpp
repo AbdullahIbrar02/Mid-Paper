@@ -18,4 +18,15 @@ int main() {
     else cout << "Grade: F" << endl;
  
     return 0;
-}
+    float highest = m1;
+
+if (m2 > highest)
+    highest = m2;
+
+if (m3 > highest)
+    highest = m3;
+
+cout << "Highest marks: " << highest << endl;}
+
+
+
